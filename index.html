@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .register-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .register-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Multimedia Webpage</h1>
+
+  <section>
+    <h2>Audio Player</h2>
+    <audio controls>
+      <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section>
+    <h2>Video Player</h2>
+    <video controls width="600">
+      <source src="https://videocdn.cdnpk.net/joy/content/video/free/2014-12/large_preview/Raindrops_Videvo.mp4?token=exp=1733259240~hmac=0640504133db8402243012cac971957572498f3776eff8f374e91ea504f95a8b" type="video/mp4">
+      <source src="https://www.videvo.net/video/forwards-fly-above-rugged-sea-coast-waves-rolling-to-coastal-rocks-and-splashing-to-height/1490738/#rs=video-box" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <a href="register.html" class="register-btn">Register</a>
+</body>
+</html>
